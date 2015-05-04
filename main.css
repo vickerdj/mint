@@ -1,0 +1,190 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*====================== My CSS =========================*/
+/*                                                       */
+body {
+	font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+}
+/* Header styles-------------------------------------*/
+header {
+	width: 700px;
+	height:40px;
+	margin: 0 auto;
+/*	background-color: #AFEEEE;*/
+	padding-top: 80px;
+}
+.header-nav li {
+	float: right;
+	padding: 0 15px;
+	font: 15px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#signup {
+	font-weight: bold;
+	border-right: 1px solid;
+}
+h1 {
+	font: 34px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	float: left;
+}
+/* Section styles-------------------------------------*/
+section {
+	width: 700px;
+	height:708px;
+	margin: 0 auto;
+	box-shadow: #C7C7C7 1px 3px 8px 0;
+/*	background-color: #D8BFD8;*/
+}
+.section-header {
+	width: 100%;
+	height: 40px;
+/*	background-color: #FFC2EB;*/
+	padding: 40px 0;
+}
+h2 {
+	font: 28px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-left: 40px;
+}
+form {
+	width:65%;
+	height: 588px;
+/*	background-color: #FAEBD7;*/
+	float: left;
+}
+fieldset {
+	border-right: 1px solid #CCCCCC;
+}
+label {
+	color: black;
+	margin: 20px 0 0px 40px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.entryfields {
+	width: 300px;
+	margin-top: 5px;
+	border-radius: 5px; 
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	height: 24px;
+}
+.checkbox {
+	height: 14px;
+	margin: 20px 0 0 40px;
+	display: inline-block;
+}
+.cblabel {
+	margin: 0;
+	display: inline;
+}
+select {
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	}
+label, input, select {
+	display: block;
+}
+button {
+	margin: 40px 0 0 40px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	background-color: orange;
+}
+/*Aside styles---------------------------------*/
+aside {
+	width:35%;
+	height: 588px;
+	float: right;
+}
+.right-teaser {
+	background-color: #F0F2F2;
+	padding: 20px;
+	margin: 0 25px;
+}
+h3 {
+	color: #666;
+	font: 300 20px 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.aside-list {
+	list-style: disc;
+	list-style-position: inside;
+	font: 200 11px 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+	color: #666;
+}
+.aside-list > li {
+	padding: 2px 5px 2px 10px;
+}
+/* Footer styles-------------------------------*/
+footer {
+	width: 700px;
+	height:150px;
+	margin: 0 auto;
+/*	background-color: #AFEEEE;*/
+	clear: both;
+	font: 200 11px 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+	color: #666;
+}
+.footer-nav, p {
+	text-align: center; 
+}
+.footer-nav > li {
+	display: inline-block;
+	margin: 20px 15px;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+p {
+	color: #999;
+}
